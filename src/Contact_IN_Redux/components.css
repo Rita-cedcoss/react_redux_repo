@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#outer{
+    height:auto;
+    width:100%;
+    padding-top: 50px;
+    padding-bottom: 40px;
+    display: flex;
+    text-align: center;
+    align-items: flex-start;
+}
+#container{
+    height: 300px;
+    width:30%;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 30px;
+    border-radius: 5px;
+    border: 1px solid rgb(110, 110, 110);
+}
+.inputStyle
+{
+    height: 30px;
+    width: 80%;
+    margin-top: 25px;
+    padding-left: 5px;
+}
+#btnSubmit{
+    height: 40px;
+    width: 80%;
+    margin-top: 30px;
+    font-size: 22px;
+    border: none;
+    background: blue;
+    border-radius: 10px;
+    color: white;
+}
+#populate{
+    height: auto;
+    width:50%;
+    margin:0 auto;
+    text-align: center;
+    /* padding: 60px; */
+    /* background-color: red; */
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid #dddddd;
+   
+  }
+  
+  td, th {
+ 
+    text-align: center;
+    padding: 20px;
+
+  }
+  tr{
+    border-bottom: 1px solid #dddddd;
+    /* padding: 10px;*/
+    margin: 10px;
+  }
+  .btnUpdate{
+    height: 26px;
+    width: 52px;
+    border: none;
+    background: none;
+    font-size: 16px;
+    text-decoration: underline;
+  }
+  #edit{
+    color: green;
+  }
+  #delete{
+    color: red;
+  }
