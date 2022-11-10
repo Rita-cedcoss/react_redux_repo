@@ -25,8 +25,13 @@ const ContactDetail = (props) => {
     let contact_num = document.getElementById("contact").value;
     let btntext=e.target.innerHTML
     console.log(btntext);
+   
     if(btntext=="Submit"){
+      if(fname==""||lname==""||contact_num==""){
+        alert("Please fill all Fields")
+     }else{
       dispatch(submitData(fname, lname, contact_num));
+    }
     }
     else if(btntext=="Update Data"){
       console.log(ind);
@@ -121,9 +126,6 @@ const ContactDetail = (props) => {
           })}
         </table>
       </div>:<p></p>}
-     
-
-      <p></p>
     </div>
   );
 };
