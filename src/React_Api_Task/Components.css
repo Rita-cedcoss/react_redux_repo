@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#outer{
+    height: auto;
+    width: 100%;
+}
+#gridContainer{
+    padding: 60px;
+    gap: 30px;
+    margin: 50px;
+    border: 1px solid #9f9898;
+    background: #ffeaea;
+    justify-content: space-between;
+    align-items: center;
+
+}
+#grid{    
+    height: 150px;
+    margin: 20px;
+    background-color: white;
+    border-radius: 15px;
+    border: 1px solid #201919;
+    position: relative;
+
+}
+#Title{
+    height: 14%;
+    width: 96%;
+    background-color: #f1eeea;
+    border-radius: 15px 15px 0px 0px;
+    padding: 2%;
+    font-size: 14px;
+    overflow: hidden;
+    border-bottom: 1px solid #a39d9d;
+    color: white;
+    background-color: #0e0e0e;
+}
+#Content{
+    height: 55%;
+    overflow: hidden;
+    width: 96%;
+    font-size: 14px;
+    border-radius: 0px 0px 15px 15px;
+    padding: 2%;
+}
+ #load{
+    height: 100px;
+    width: 100%;
+    text-align: center;
+}
+.visibility{
+    visibility:hidden;
+    text-align: center;
+} 
+ h2{
+    margin-left: 50px;
+} 
+h3{
+    position: absolute;
+    top: 27px;
+    color: #181717;
+    color: white;
+    padding: 0px 8px 0px 8px;
+ }
+h4{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 35px;
+    color: red;
+} 
+#postContainer{
+    height: 200px;
+    width: 30%;
+    margin: auto;
+    padding: 25px 20px 20px 20px;
+    text-align: center;
+    background-color: #9b6666;
+}
+input{
+    height: 40px;
+    padding-left: 10px;
+    margin-bottom: 20px;
+    width: 90%;
+}
+button{
+    height: 50px;
+    width: 42%;
+    background: black;
+    color: white;
+    font-size: 25px;
+}
+.btnDelete{
+    height: 50px;
+    width: 22%;
+    background: black;
+    color: white;
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+#asyncContainer{
+    height: auto;
+    width: 100%;
+
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 80%;
+    margin: auto;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+  #btnAsyncAdd
+  {
+    width: 20%;
+    margin-right: 2%;
+    margin-bottom: 2%;
+  }
+  #btnAsyncDelete{
+    width: 20%;
+    margin-bottom: 2%;
+  }
